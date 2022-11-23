@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-list {
+    background-color: cadetblue;
+}
+
+.navbar {
+    background-color: rgb(76, 111, 111);
+}
+
+.navbar-header {
+    padding-top: 25px;
+}
+
+.navbar-brand {
+    height: 75px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#chicken section {
+    background-color: rgb(188, 248, 188);
+    margin: 20px 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+@media (max-width: 767px) {
+    #chicken section {
+        margin: 20px 50px;
+    }
+}
